@@ -8,7 +8,7 @@ body {
 
 
 * {
-    font-family: cursive;
+    /* font-family: cursive; */
     scroll-behavior: smooth;
  }
  
@@ -21,7 +21,7 @@ body {
     font-size: 18px;
     border: none;
     outline: none;
-    background-color: blue;
+    background-color: green;
     color: white;
     cursor: pointer;
     padding: 15px;
@@ -211,7 +211,7 @@ body {
     font-weight: 600;
     font-size: 42px;
     margin: 9px;
-    font-family: 'Merriweather', serif;
+    /* font-family: 'Merriweather', serif; */
 }
 
 .fav {
@@ -443,6 +443,7 @@ nav {
     justify-content: space-around;
     padding-top: 60px;
     padding-bottom: 60px;
+    margin-top: 9%;
 
 }
 
@@ -487,7 +488,7 @@ nav {
 
 .row .line {
     margin: -10px 0% 0% 0%;
-    width: 18%;
+    width: 5%;
 }
 
 .footer hr {
@@ -618,8 +619,8 @@ h5 {
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
     
-    }
+   
     .text {
-        font-size: 11px
+        font-size: 11px;
     }
 }
